@@ -1,0 +1,94 @@
+.footerWrapper {
+  background-color: var(--primaryColor);
+  padding: 56px 80px;
+  color: var(--primaryColorLight);
+  position: relative;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 54px;
+}
+.footerInfo {
+  display: flex;
+  gap: 64px;
+  padding: 80px 64px;
+  /* background-color: var(--primaryColorLight);
+  opacity: 0.05; */
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-bottom: 48px;
+}
+
+.footerInfoForm,
+.footerInfo h2 {
+  flex: 1;
+}
+
+.footerInfoForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.footerInput {
+  background-color: transparent;
+  padding: 14px 24px;
+  border-style: none;
+  border: 1px solid var(--secondaryColor, #4c4c4c);
+  min-width: 135.311px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: white;
+}
+
+.footerContacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.burger {
+  display: none;
+}
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  background-color: var(--activeColor);
+  color: black;
+}
+.df {
+  display: flex;
+  padding: 56px 80px;
+  justify-content: space-between;
+}
+.menuList {
+  padding-top: 50px;
+  font-size: 1.5em;
+}
+.menuList li {
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 1280px) {
+  .footerInfo h2 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footerInfo {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .rightColumn {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}

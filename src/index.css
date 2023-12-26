@@ -1,13 +1,117 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Sen', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.75;
+  width: 100%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'Sen', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.142;
+}
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.333;
+}
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.285;
+}
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.333;
+}
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.6;
+  margin: 0;
+}
+h6 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0;
+}
+P {
+  font-size: 16px;
+  line-height: 1.75;
+  font-weight: normal;
+}
+/* header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+} */
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+input::placeholder {
+  color: var(--Medium-grey);
+}
+
+:root {
+  --primaryColor: #232536;
+  --primaryColorLight: #fff;
+  --secondaryColor: #4c4c4c;
+  --Medium-grey: #6d6e76;
+  --activeColor: #ffd050;
+  --accentColor: #592ea9;
+  --primaryBGC: #f4f4f4;
+  --secondaryBGC: #f4f0f8;
+  --accentBGC: #fbf6ea;
 }

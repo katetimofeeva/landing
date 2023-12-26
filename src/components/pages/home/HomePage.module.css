@@ -1,0 +1,239 @@
+.mainScreen {
+  padding: 128px 80px 192px;
+  color: var(--primaryColorLight);
+  background-image: radial-gradient(
+      80.99% 71.93% at 74.58% 0%,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url('../../../../public/assets/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.mainScreenPost {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.mainScreenPost span {
+  font-weight: 900;
+}
+
+.mainScreenTitle {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.14286;
+  letter-spacing: -2px;
+  max-width: 803px;
+  margin-bottom: 24px;
+}
+
+.mainScreenDate {
+  margin-bottom: 16px;
+}
+
+.mainScreenDate span {
+  color: var(--activeColor);
+}
+
+.mainScreenInfo {
+  max-width: 600px;
+  margin-bottom: 48px;
+}
+
+.section {
+  padding: 64px 80px;
+}
+
+.sectionWrapper {
+  display: flex;
+  gap: 32px;
+  position: relative;
+}
+.allPosts {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  color: var(--accentColor);
+}
+
+.leftColumn {
+  flex-basis: 733px;
+}
+.rightColumn {
+  flex-basis: 517px;
+}
+.scroll {
+  overflow-y: auto;
+  max-height: 720px;
+}
+::-webkit-scrollbar {
+  width: 16px;
+  background-color: var(--primaryBGC);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--accentBGC);
+  border-radius: 2px;
+  border: 3px solid #fff;
+}
+.leftColumn h2,
+.rightColumn h2 {
+  margin-bottom: 32px;
+}
+.padding {
+  padding: 32px;
+}
+
+.leftColumnMainInfo button {
+  margin-bottom: 32px;
+}
+/*img dosen't work*/
+.photo {
+  max-width: 100%;
+  min-height: auto;
+  /* min-height: 352px; */
+  margin-bottom: 32px;
+  /* background-image: url(./white-concrete-building-1838640.png); */
+}
+
+.leftColumnMainInfoDate {
+  font-size: 14px;
+  line-height: 1.42857;
+  margin-bottom: 16px;
+}
+
+.leftColumnMainInfoDate span {
+  color: var(--accentColor);
+}
+
+.leftColumnTitle {
+  line-height: 1.42857;
+  margin-bottom: 32px;
+}
+
+.leftColumnInfo {
+  margin-bottom: 32px;
+  max-width: 554px;
+}
+
+.thirdSectionWrapper {
+  display: flex;
+  gap: 82px;
+  padding: 96px 80px;
+  background-color: var(--secondaryBGC);
+}
+.thirdSectionWrapperColum {
+  flex: 1;
+}
+
+.forthSection h2 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.wrapper {
+  position: relative;
+}
+.historyColumn {
+  padding: 80px;
+  position: absolute;
+  top: 121px;
+  left: 574px;
+  background-color: var(--primaryColorLight);
+}
+.historyColumn p:first-of-type {
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  margin-bottom: 24px;
+}
+.historyColumn h1 {
+  line-height: 1.33333;
+  letter-spacing: -2px;
+  margin-bottom: 16px;
+}
+
+.historyColumn p:last-of-type {
+  margin-bottom: 32px;
+}
+.testimonialsWrapper {
+  display: flex;
+  background-color: var(--accentBGC);
+  padding: 80px 112px;
+  gap: 180px;
+}
+
+.left {
+  flex-basis: 345px;
+}
+.left p:first-of-type {
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  /* flex-basis: 541px; */
+}
+.right {
+  flex-basis: 468px;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+}
+.avatarBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 120px;
+  gap: 10px;
+}
+
+.next {
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.next,
+.prev {
+  cursor: pointer;
+}
+
+.lastSection {
+  max-width: 414px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lastSection h2 {
+  margin-bottom: 16px;
+}
+
+.lastSection p {
+  padding-bottom: 32px;
+}
+
+@media screen and (max-width: 1280px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .historyColumn {
+    position: static;
+  }
+  .testimonialsWrapper {
+    gap: 20px;
+  }
+  .section {
+    padding: 64px;
+  }
+}

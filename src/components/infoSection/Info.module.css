@@ -1,0 +1,29 @@
+.big {
+  letter-spacing: -2px;
+  margin-bottom: 16px;
+}
+
+.small {
+  line-height: 1.4285;
+  letter-spacing: -1px;
+  margin-bottom: 16px;
+}
+
+.info {
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.desc {
+  margin-bottom: 16px;
+}
+
+.leftColumnMainInfoDate {
+  font-size: 14px;
+  line-height: 1.42857;
+  margin-bottom: 16px;
+}
+
+.leftColumnMainInfoDate span {
+  color: var(--accentColor);
+}

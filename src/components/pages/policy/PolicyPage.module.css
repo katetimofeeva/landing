@@ -1,0 +1,30 @@
+.main {
+  padding: 80px 0;
+  background-color: var(--secondaryBGC);
+  text-align: center;
+}
+
+.main h1 {
+  line-height: 1.3333; /* 133.333% */
+  letter-spacing: -2px;
+}
+
+.main p {
+  opacity: 0.6;
+}
+
+.policy {
+  margin: 0 auto;
+  padding: 128px 0;
+  max-width: 768px;
+}
+.policy p {
+  margin-bottom: 32px;
+  color: var(--secondaryColor);
+}
+.policy h1 {
+  margin-bottom: 32px;
+}
+.policy h2 {
+  margin-bottom: 24px;
+}

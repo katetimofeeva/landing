@@ -1,0 +1,103 @@
+.container {
+  padding: 128px 336px;
+  text-align: center;
+}
+.container p:first-of-type {
+  margin-bottom: 12px;
+}
+.container h1 {
+  line-height: 1.333; /* 133.333% */
+  letter-spacing: -2px;
+}
+.contactInfo {
+  display: flex;
+  gap: 70px;
+  padding: 48px 64px;
+  background-color: var(--accentColor);
+  text-align: left;
+  color: var(--primaryColorLight);
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+/* .column {
+  flex-basis: 265px;
+} */
+.column p {
+  opacity: 0.6;
+}
+.column h5 {
+  max-width: 220px;
+}
+.column p.title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4286;
+  margin-bottom: 32px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: start;
+}
+
+/* .row label, */
+.row input,
+.row select,
+.row textarea {
+  display: block;
+  width: 100%;
+  max-width: 768px;
+  border-radius: 2px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+  padding: 24px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.row select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  background-image: url('../../../../public/assets/arrow.svg'); /* Путь к изображению стрелки */
+  background-position: 97% center;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+}
+option {
+  max-width: 100px;
+}
+/* .row input,
+.row select,
+.row textarea {
+  border-radius: 2px;
+  border: 1px solid rgba(109, 110, 118, 0.5);
+  padding: 24px;
+} */
+
+.row {
+  position: relative;
+}
+.row label {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.row .hidden {
+  visibility: hidden;
+}
+.delete {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-size: 24px;
+}
+
+.form button:last-of-type {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3333;
+}

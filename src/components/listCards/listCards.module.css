@@ -1,0 +1,78 @@
+.cardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: space-between;
+}
+.wrapper {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+}
+.card {
+  border: 1px solid rgba(109, 110, 118, 0.3);
+  padding: 32px;
+}
+.active {
+  background-color: var(--activeColor);
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  background-color: var(--accentBGC);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.card h3 {
+  line-height: 1.42857;
+  margin-bottom: 4px;
+}
+
+.authCard {
+  background: var(--primaryBGC, #f4f4f4);
+  text-align: center;
+  padding: 40px 28px;
+  min-width: 296px;
+}
+.authCard img {
+  border-radius: 128px;
+  margin-bottom: 20px;
+}
+
+.authCard h3 {
+  line-height: 1.42857;
+  letter-spacing: -1px;
+}
+.authCard p {
+  font-size: 14px;
+  line-height: 1.42857;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.authCard.active {
+  background-color: var(--accentBGC);
+}
+
+@media screen and (max-width: 1280px) {
+  .wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cardWrapper {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .authCard {
+    padding: 25px;
+    min-width: initial;
+    width: 40%;
+  }
+}

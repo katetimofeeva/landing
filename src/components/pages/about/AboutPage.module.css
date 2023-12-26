@@ -1,0 +1,229 @@
+.section {
+  padding: 64px 80px;
+}
+
+.aboutUs {
+  position: relative;
+}
+
+.df {
+  display: flex;
+  gap: 96px;
+  align-items: end;
+  padding-right: 38px;
+  padding-top: 100px;
+  flex-direction: row-reverse;
+}
+
+.left {
+  position: absolute;
+  max-width: 624px;
+  width: 46%;
+  padding: 64px;
+  background-color: white;
+  top: 0;
+  left: 109px;
+}
+
+.img {
+  height: auto;
+  max-width: 624px;
+  width: 100%;
+}
+
+.photo {
+  background-image: url(../../../../public/assets/groupe-of-people.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  max-width: 1280px;
+  min-height: 444px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 109px;
+}
+
+.left p {
+  margin-bottom: 16px;
+}
+
+.left h1 {
+  line-height: 1.3333;
+  letter-spacing: -2px;
+}
+
+.right {
+  max-width: 477px;
+  margin-bottom: 80px;
+}
+.focusInfo {
+  padding: 32px 48px;
+  background-color: var(--activeColor);
+  display: flex;
+  max-width: 630px;
+  max-height: 156px;
+  align-items: center;
+  justify-content: space-between;
+}
+.focusInfo p {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.14286;
+  letter-spacing: -2px;
+}
+
+.focusInfo span {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.first {
+  width: 311.477px;
+  height: 23px;
+  background-color: var(--accentColor);
+  display: inline-block;
+}
+.second {
+  display: inline-block;
+  background-color: var(--activeColor);
+  width: 550px;
+  height: 23px;
+}
+
+.infoSection {
+  display: flex;
+  gap: 32px;
+  padding: 128px 108px 64px;
+  background-color: var(--secondaryBGC);
+}
+.infoSection p:first-of-type {
+  font-weight: 600;
+  line-height: 0.25; /* 125% */
+  letter-spacing: 3px;
+}
+.infoSection p:last-of-type {
+  color: #6d6e76;
+}
+.container {
+  display: flex;
+  gap: 136px;
+  justify-content: space-between;
+  align-items: center;
+}
+.image {
+  position: relative;
+  flex: 1;
+}
+.sticker {
+  position: absolute;
+  top: 114px;
+  left: -51px;
+}
+
+.hidden {
+  position: absolute;
+  left: -100%;
+}
+.titleAuth {
+  text-align: center;
+  margin-bottom: 48px;
+}
+.box {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.title {
+  /* text-align: center; */
+  max-width: 414px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.p {
+  color: var(--Medium-grey, #6d6e76);
+  max-width: 405px;
+  margin: 0 auto;
+  /* text-align: center; */
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 1280px) {
+  .left {
+    padding: 20px;
+    left: 66px;
+    max-width: 345px;
+    top: 60px;
+  }
+  .left h1 {
+    font-size: 36px;
+  }
+  .container {
+    gap: 50px;
+  }
+  .infoSection {
+    padding: 128px 64px 64px;
+  }
+  .photo {
+    padding-left: 64px;
+  }
+  .second {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .right {
+    max-width: 378px;
+    margin-bottom: 60px;
+  }
+  .left {
+    left: 19px;
+    max-width: 190px;
+    top: 20px;
+  }
+  .left h1 {
+    font-size: 24px;
+  }
+  .df {
+    padding-top: 40px;
+  }
+  .focusInfo {
+    max-width: 70%;
+  }
+  .focusInfo p {
+    font-size: 36px;
+  }
+  .focusInfo span {
+    font-size: 12px;
+  }
+  .first {
+    max-width: 30%;
+  }
+  .infoSection {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .df {
+    padding: 0;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .left {
+    padding: 0;
+    position: static;
+    max-width: 48%;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .right {
+    max-width: 48%;
+  }
+}

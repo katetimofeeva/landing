@@ -1,0 +1,27 @@
+.postStyle {
+  padding: 32px 32px 25px 32px;
+}
+
+.postStyle + .postStyle {
+  padding-top: 7px;
+}
+
+.bgActive {
+  background-color: var(--accentBGC);
+}
+
+.title {
+  font-size: 14px;
+  line-height: var(--secondaryColor);
+  font-weight: 500;
+  line-height: 1.42857;
+  margin-bottom: 8px;
+}
+
+.title span {
+  color: var(--accentColor, #592ea9);
+}
+
+.desc {
+  max-width: 369px;
+}

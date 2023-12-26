@@ -1,0 +1,60 @@
+.section {
+  /* padding: 64px 80px; */
+  position: relative;
+}
+
+.main {
+  display: flex;
+  gap: 32px;
+  padding: 128px 208px 104px 208px;
+  background-color: var(--secondaryBGC);
+}
+.main img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main h1 {
+  line-height: 1.33333; /* 133.333% */
+  letter-spacing: -2px;
+  margin-bottom: 24px;
+}
+.main p {
+  margin-bottom: 24px;
+}
+
+.decElem {
+  /* padding: 0 208px; */
+  position: absolute;
+  position: absolute;
+  bottom: -9px;
+  left: 208px;
+}
+.first {
+  width: 311.477px;
+  height: 23px;
+  background-color: var(--accentColor);
+  display: inline-block;
+}
+.second {
+  display: inline-block;
+  background-color: var(--activeColor);
+  width: 550px;
+  height: 23px;
+}
+
+.container {
+  padding: 128px 208px;
+}
+
+.container h1 {
+  line-height: 1.33333; /* 133.333% */
+  letter-spacing: -2px;
+}
+
+.card {
+  display: flex;
+  gap: 32px;
+  margin-top: 64px;
+  align-items: center;
+}

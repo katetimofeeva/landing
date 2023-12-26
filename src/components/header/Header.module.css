@@ -1,0 +1,64 @@
+@import '../../index.css';
+
+/* nav {
+  margin: auto;
+} */
+
+.container {
+  background-color: var(--primaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--primaryColorLight);
+  padding: 12px 80px;
+}
+
+.rightColumn,
+.leftColumn {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+  font-weight: 400;
+}
+
+.mr {
+  margin-right: 32px;
+}
+
+.burger {
+  display: none;
+}
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  background-color: var(--activeColor);
+  color: black;
+  z-index: 10;
+  padding: 12px 80px 12px 40px;
+}
+.df {
+  display: flex;
+
+  justify-content: space-between;
+}
+.menuList {
+  padding-top: 50px;
+  font-size: 1.5em;
+}
+.menuList li {
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 800px) {
+  .rightColumn {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+}

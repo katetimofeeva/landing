@@ -1,0 +1,20 @@
+.btn {
+  padding: 16px 48px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3333;
+}
+
+.mainBtn {
+  background-color: var(--activeColor);
+}
+
+.navBtn {
+  background-color: var(--primaryColorLight);
+}
+
+.secondaryBTN {
+  color: var(--accentColor);
+  padding: 0;
+  line-height: 1.777;
+}
