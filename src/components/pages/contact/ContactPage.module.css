@@ -101,3 +101,20 @@ option {
   font-weight: 700;
   line-height: 1.3333;
 }
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 128px 20%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 100px 10%;
+  }
+  .contactInfo {
+    gap: 30px;
+    padding: 30px;
+    justify-content: space-between;
+  }
+}

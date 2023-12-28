@@ -91,4 +91,13 @@
   .burger {
     display: block;
   }
+  .menuList li::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footerInfoForm {
+    flex-direction: column;
+  }
 }

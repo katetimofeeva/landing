@@ -237,3 +237,37 @@
     padding: 64px;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .thirdSectionWrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mainScreenTitle {
+    font-size: 48px;
+  }
+  .mainScreen {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .sectionWrapper {
+    flex-direction: column;
+  }
+  .historyColumn {
+    padding: 30px 10px;
+  }
+  .testimonialsWrapper {
+    flex-direction: column;
+    padding: 30px;
+  }
+  .left,
+  .right {
+    flex-basis: auto;
+  }
+  .avatarBox {
+    margin-top: 20px;
+  }
+}

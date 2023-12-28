@@ -54,7 +54,7 @@ const BlogPage = () => {
           {posts.map(({ id, url, title, info, desc }) => {
             return (
               <div className={styles.card} key={id}>
-                <img alt={title} src={url} />
+                <img alt={title} src={url} className={styles.img} />
                 <Info title={title} info={info} desc={desc} />
               </div>
             );

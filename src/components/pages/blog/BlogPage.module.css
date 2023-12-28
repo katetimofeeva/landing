@@ -30,6 +30,10 @@
   bottom: -9px;
   left: 208px;
 }
+.img {
+  max-width: 50%;
+}
+
 .first {
   width: 311.477px;
   height: 23px;
@@ -57,4 +61,44 @@
   gap: 32px;
   margin-top: 64px;
   align-items: center;
+}
+@media screen and (max-width: 1200px) {
+  .main {
+    padding: 80px;
+  }
+  .decElem {
+    bottom: -2%;
+    left: 20%;
+    max-width: 100%;
+  }
+  .first {
+    max-width: 30%;
+  }
+  .second {
+    max-width: 60%;
+  }
+  .container {
+    padding: 128px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    padding: 50px;
+  }
+  .container {
+    padding: 100px 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main p {
+    margin-bottom: 0;
+  }
+  .first {
+    max-width: 20%;
+  }
+  .second {
+    max-width: 40%;
+  }
 }
